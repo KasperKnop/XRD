@@ -2,7 +2,7 @@
 
 Before considering the technical aspects of XR development, we should explore the ideas and motivations behind the technology. That is, this week we will focus on "what" and "why" - the following weeks we will explore "how".
 
-Create your blog and write your first post (1-2 pages, one page is considered 2400 characters) covering the "what" and the "why" of XR. Here are some questions you can use for inspiration:
+Create a blog and write your first post (1-2 pages, one page is considered 2400 characters) covering the "what" and the "why" of XR. Here are some questions you can use for inspiration:
 
 -   What is AR/VR/AV/MR/XR and how do the terminologies compare?
 -   How do XR applications compare to traditional desktop and mobile applications? Advantages/disadvantages?
