@@ -64,7 +64,7 @@ Add [plane tracking](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation
 
 ## 6. Raycasting
 
-You can cast rays to perform hit detections against trackables such as planes. The API is similar to Unity's physics module. Use this to spawn a cube at the position on a plane where the user is touching. If you want to test using the simulator, make sure that you are using an API that registers mouse input as well as touch input.
+You can [cast rays](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/features/raycasts.html) to perform hit detections against trackables such as planes. The API is similar to Unity's physics module. Use this to spawn a cube at the position on a plane where the user is touching. If you want to test using the simulator, make sure that you are using an API that registers mouse input as well as touch input.
 
 ![Raycasting](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/6.png)
 
