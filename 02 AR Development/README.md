@@ -89,7 +89,7 @@ To get a deeper understanding of the various features included in AR Foundation,
 -   Session recording
 -   Face tracking
 
-There are also features outside of AR Foundation, which might be worth looking into. E.g. [Cloud Anchor](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions).
+There are also features outside of AR Foundation, which might be worth looking into. E.g. [Cloud Anchors](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions).
 
 If you want to develop mixed reality experiences for the Quest headsets, you can use [this introductory blog post](https://blog.unity.com/engine-platform/get-started-developing-for-quest-3-with-unity) and [the documentation](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@0.1/manual/index.html).
 
