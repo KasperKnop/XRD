@@ -23,7 +23,7 @@ What is the purpose of the AR Session GameObject? What about AR Session Origin?
 What is the "Tracked Pose Driver" component doing on the camera?
 What is the difference between session space and world space in an AR scene?
 
-![New AR Project](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/2.png)
+![New AR Project](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/2.png)
 
 ## 3. Using The Simulator
 
@@ -39,7 +39,7 @@ Not all AR Foundation features can be tested in the simulator. Refer to [the doc
 
 Test out the AR templates “SampleScene” using various simulated environments.
 
-![AR Simulator](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/3.png)
+![AR Simulator](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/3.png)
 
 <blockquote>
 It is worth noting that touch input is not currently supported by the simulator.
@@ -56,7 +56,7 @@ Go to Project Settings and enable ARCore for Android (or ARKit for iOS). Then sw
 
 When running the application, you should be able to detect planes and place cubes.
 
-![Building to Device](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/4.png)
+![Building to Device](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/4.png)
 
 ## 5. Detecting Planes
 
@@ -64,13 +64,13 @@ It’s time to implement an AR scene from scratch. Create a new scene, delete or
 
 Add [plane tracking](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/plane-detection.html) to the experience. The plane visualization should look different from the SampleScene. How come? Can you change the visualization so that it matches that of the SampleScene?
 
-![Plane Detection](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/5.png)
+![Plane Detection](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/5.png)
 
 ## 6. Raycasting
 
 You can cast rays to perform hit detections against trackables such as planes. The API is similar to Unity's physics module. Use this to spawn a cube at the position on a plane where the user is touching. If you want to test using the simulator, make sure that you are using an API that registers mouse input as well as touch input.
 
-![Raycasting](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/6.png)
+![Raycasting](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/6.png)
 
 ## 7. Augmented Images
 
@@ -78,7 +78,7 @@ Image targets can be a good way to anchor virtual experiences and are useful for
 
 Use the [AR Tracked Image Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/raycasts.html) to spawn a cube on top of a tracked image.
 
-![Augmented Images](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/7.png)
+![Augmented Images](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/7.png)
 
 ## 8. Further Exploration
 
@@ -99,4 +99,4 @@ If you want to develop mixed reality experiences for the Quest headsets, you can
 
 You might also have to familiarize yourself with a 3D modeling tool like [Blender](https://www.blender.org/download/) for creating or modifying models for your experiences.
 
-![Further Exploration](https://github.com/KasperKnop/XRD/tree/main/02%20AR%20Development/img/8.png)
+![Further Exploration](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/8.png)
