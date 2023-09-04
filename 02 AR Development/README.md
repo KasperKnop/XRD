@@ -56,8 +56,6 @@ Go to Project Settings and enable ARCore for Android (or ARKit for iOS). Then sw
 
 When running the application, you should be able to detect planes and place cubes.
 
-![Building to Device](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/4.png)
-
 ## 5. Detecting Planes
 
 It’s time to implement an AR scene from scratch. Create a new scene, delete or convert the camera to an [XR Origin](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/device-tracking.html) and add an [AR Session](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/session.html) GameObject. Take some time to familiarize yourself with the two GameObjects and their purpose.
