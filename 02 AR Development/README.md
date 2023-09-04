@@ -39,12 +39,12 @@ Not all AR Foundation features can be tested in the simulator. Refer to [the doc
 
 Test out the AR templates “SampleScene” using various simulated environments.
 
-![AR Simulator](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/3.png)
-
 <blockquote>
 It is worth noting that touch input is not currently supported by the simulator.
 The SampleScene uses <a href="https://docs.unity3d.com/ScriptReference/Touch.html">Touch</a> for placing objects, which means that you will be able to detect planes in the simulation, but not place down objects. When writing your own applications, you can get around this by using <a href="https://github.com/Unity-Technologies/arfoundation-samples/blob/main/Assets/Scripts/Runtime/PressInputBase.cs">InputActions</a> instead, which works for both touch and pointer input, or you can use <a href=”https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/api/UnityEngine.InputSystem.EnhancedTouch.EnhancedTouchSupport.html”>EnhancedTouchSupport</a>, which can simulate other types of Pointer devices (e.g. Mouse or Pen).
 </blockquote>
+
+![AR Simulator](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/3.png)
 
 ## 4. Building To Device
 
