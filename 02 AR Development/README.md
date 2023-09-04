@@ -19,9 +19,7 @@ Use the AR template in Unity Hub to get started.
 
 For more information about the AR template, you can refer to [the documentation](https://docs.unity3d.com/Packages/com.unity.template.ar@4.0/manual/index.html).
 
-What is the purpose of the AR Session GameObject? What about AR Session Origin?
-What is the "Tracked Pose Driver" component doing on the camera?
-What is the difference between session space and world space in an AR scene?
+What is the purpose of the GameObjects and components already in the scene? What is the difference between session space and world space?
 
 ![New AR Project](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/2.png)
 
