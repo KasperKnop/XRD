@@ -72,7 +72,7 @@ You can [cast rays](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@
 
 Image targets can be a good way to anchor virtual experiences and are useful for calibrating with real world locations.
 
-Use the [AR Tracked Image Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/raycasts.html) to spawn a cube on top of a tracked image.
+Use the [AR Tracked Image Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html) to spawn a cube on top of a tracked image.
 
 ![Augmented Images](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/7.png)
 
