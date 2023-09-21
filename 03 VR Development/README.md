@@ -4,7 +4,7 @@
 
 ## Project Setup
 
-1. Start a new Unity Project using the VR Core template.
+1. Start a new Unity Project using the **VR** core template.
 2. In the menu, go to **File** > **Build Settings**.
 3. Under **Platform**, select **Android**.
 4. Set Texture Compression to ASTC.
@@ -20,7 +20,7 @@ For more information on the VR template, check out the [quick start guide](https
 
 XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc) is already enabled in the 6.0.2 VR template. It has the **BasicScene** and **SampleScene** that you can take advantage of, as well as the **DemoScene** in the **Samples** folder. If you want more examples for e.g. hand tracking, you can go to **Window** > **Package Manager** > XR Interaction Toolkit > Samples. This is also where you find the **XR Device Simulator**, that can help you test out your scene without a headset.
 
-N.B.: There is a known issue when upgrading from an older version of the Starter Assets to a newer version. Script references in the Demo Scene for scripts included in the Starter Assets become disconnected when upgrading in-place. It is recommended that you delete the **Starter Assets** folder from your **Samples** directory before importing the new Starter Assets sample package.
+> _N.B.: There is a known issue when upgrading from an older version of the Starter Assets to a newer version. Script references in the Demo Scene for scripts included in the Starter Assets become disconnected when upgrading in-place. It is recommended that you delete the **Starter Assets** folder from your **Samples** directory before importing the new Starter Assets sample package._
 
 If you ever get stuck, take a look at the [official documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/general-setup.html). For even more elaborate examples, check out [the official XR Interaction Toolkit examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples) on Github.
 
