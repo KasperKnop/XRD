@@ -40,14 +40,14 @@ If your development machine meets the [minimum requirements](https://www.meta.co
 2. Set Oculus as the active runtime under OpenXR Runtime in the Oculus Desktop application.
 3. If you want passthrough, eye tracking, and similar features to work over Oculus Link: **Oculus Desktop App** > **Settings** > **Beta** > **Developer Runtime features**.
 4. Make sure your Quest is running the latest software update (settings > about).
-5. If Quest Link is not present in the Quick Settings, go to Settings > Oculus Link to enable it.
+5. If Quest Link is not present in the Quick Settings, go to Settings > Quest Link to enable it.
 6. Connect your Quest to the PC through USB and accept any prompts.
-7. Activate Oculus Link in the Quick Settings
+7. Activate Quest Link in the Quick Settings
 
-###### Additional Wireless PC VR (Oculus Air Link)
+###### Additional Wireless PC VR (Quest Air Link)
 
 1. Make sure your Quest and your PC is on the same network (XR-Lab WiFi password: "VIAxrlab2021").
-2. Enable Oculus Air Link in the Quick Settings of the headset under Quest Link.
+2. Enable Quest Air Link in the Quick Settings of the headset under Quest Link.
 
 ###### Additional Tools
 
