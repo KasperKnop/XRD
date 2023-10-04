@@ -18,7 +18,7 @@ For more information on the VR template, check out the [quick start guide](https
 
 ###### XR Interaction Toolkit \[RECOMMENDED\]
 
-XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc) is already enabled in the 6.0.2 VR template. It has the **BasicScene** and **SampleScene** that you can take advantage of, as well as the **DemoScene** in the **Samples** folder. If you want more examples for e.g. hand tracking, you can go to **Window** > **Package Manager** > XR Interaction Toolkit > Samples. This is also where you find the **XR Device Simulator**, that can help you test out your scene without a headset.
+XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc) is already enabled in the 6.0.2 VR template. It has the **BasicScene** and **SampleScene** that you can take advantage of, as well as the **DemoScene** in the **Samples** folder. If you want more examples for e.g. hand tracking, you can go to **Window** > **Package Manager** > XR Interaction Toolkit > Samples. This is also where you can update to the latest version of the XR Interaction Toolkit and find the **XR Device Simulator**, that can help you test out your scene without a headset.
 
 > _N.B.: There is a known issue when upgrading from an older version of the Starter Assets to a newer version. Script references in the Demo Scene for scripts included in the Starter Assets become disconnected when upgrading in-place. It is recommended that you delete the **Starter Assets** folder from your **Samples** directory before importing the new Starter Assets sample package._
 
