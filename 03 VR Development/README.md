@@ -56,31 +56,31 @@ If your development machine meets the [minimum requirements](https://www.meta.co
 3. Open Meta Quest Developer Hub, click Set Up New Device and follow the instructions.
 4. You can have easy access to common development features such as ADB over WiFi to install builds without the Quest physically attached to the PC, casting and recording from the Quest to the PC, diagnostics, disabling proximity sensor, etc.
 
-![Oculus Developer Hub]()
+![Oculus Developer Hub](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/1.png)
 
 ## 2. The XR Origin
 
 Use the BasicScene from the VR template to familiarize yourself with the "Complete XR Origin Set Up" - specifically the XR Origin. What GameObjects and components does it consist of, and what is their purpose? How do you change the controls of the XR Rig? (move speed, turn/smooth rotation, etc?)
 
-![BasicScene]()
+![BasicScene](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/2.png)
 
 ## 3. Interactables
 
 Using the BasicScene as a starting point, create two cubes - one as a table and one as an object resting on the table that you can grab and interact with. Change the movement type of the interactable. What is the difference between instantaneous, velocity tracked and kinematic?
 
-![interactables]()
+![interactables](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/3.png)
 
 ## 4. Handling Input
 
 Familiarize yourself with the touch controllers. Make a script that registers whenever a specific button is pressed on the controller. Can you get access to a, b, triggers, thumb detection, etc?
 
-![input system]()
+![input system](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/4.png)
 
 ## 5. Interactable Events
 
 Create a gun that can shoot balls! The gun should have an XR Grab Interactable component, so that you can grab it and use the “Activated” interactable events to shoot the ball.
 
-![launcher]()
+![launcher](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/5.png)
 
 ## 6. Further Exploration
 
@@ -96,4 +96,4 @@ To get a deeper understanding of the various features included the XR Interactio
 
 If you want to use specific features from the Oculus platform (avatars, social, etc) you can use the [Oculus Integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022). It comes with prefabs for e.g. native looking controllers, as well as sample scenes for you to explore. You can use the XR Interaction Toolkit and Oculus Integrations in the same project, if you wish.
 
-![Further Exploration]()
+![Further Exploration](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/6.png)
