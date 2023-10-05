@@ -78,7 +78,7 @@ Familiarize yourself with the touch controllers. Make a script that registers wh
 
 ## 5. Interactable Events
 
-Create a gun that can shoot balls! The gun should have an XR Grab Interactable component, so that you can grab it and use the “Activated” interactable events to shoot the ball.
+Create a gun that can shoot balls! The gun should have an XR Grab Interactable component, so that you can grab it and use the “Activated” interactable events to shoot the balls.
 
 ![launcher](https://github.com/KasperKnop/XRD/blob/main/03%20VR%20Development/img/5.png)
 
