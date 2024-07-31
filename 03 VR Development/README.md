@@ -2,10 +2,6 @@
 
 ## 1. Set Up Your Development Environment
 
-### Unity Setup
-
-Install Unity 2022.3 LTS with Android Build support enabled (this is currently the only version, that has access to the new 6.0.2 VR template)
-
 ### Project Setup
 
 1. Start a new Unity Project using the **VR** core template.
