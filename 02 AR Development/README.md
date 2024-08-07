@@ -4,7 +4,7 @@
 
 To get started on the exercises, you will need to have a few things set up and ready:
 
--   Install Unity 2022.3 LTS (Make sure you install the same version as your team for future collaboration)
+-   Install Unity 6 (Make sure you install the same version as your team for future collaboration)
 -   Add the Android/iOS build support module depending on what device you have access to (building for iOS generally requires a Mac).
 -   Set up Rider, Visual Studio Code or any other C# IDE of your choice.
 
@@ -89,7 +89,7 @@ To get a deeper understanding of the various features included in AR Foundation,
 -   Session recording
 -   Face tracking
 
-There are also features outside of AR Foundation, which might be worth looking into. E.g. [Cloud Anchors](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions). Also, the preview of Unity 6 comes with a new more interactive 2.0 AR Template, which you are also welcome to explore.
+There are also features outside of AR Foundation, which might be worth looking into. E.g. [Cloud Anchors](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions).
 
 You can also familiarize yourself with a 3D modeling tool like [Blender](https://www.blender.org/download/) for creating or modifying models for your experiences.
 
