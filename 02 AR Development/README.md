@@ -17,7 +17,7 @@ Use the AR template in Unity Hub to get started.
 > Toogle Google ARCore (installs AR Foundation and ARCore provider plugin)  
 > Accept the restart to enable the new input system
 
-For more information about the AR template, you can refer to [the documentation](https://docs.unity3d.com/Packages/com.unity.template.ar@4.0/manual/index.html).
+For more information about the AR template, you can refer to [the documentation]([https://docs.unity3d.com/Packages/com.unity.template.ar@4.0/manual/index.html](https://docs.unity3d.com/Packages/com.unity.template.ar-mobile@2.0/manual/index.html)).
 
 What is the purpose of the GameObjects and components already in the scene? What is the difference between session space and world space?
 
