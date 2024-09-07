@@ -17,7 +17,7 @@ Use the AR template in Unity Hub to get started.
 > Toogle Google ARCore (installs AR Foundation and ARCore provider plugin)  
 > Accept the restart to enable the new input system
 
-For more information about the AR template, you can refer to [the documentation]([https://docs.unity3d.com/Packages/com.unity.template.ar@4.0/manual/index.html](https://docs.unity3d.com/Packages/com.unity.template.ar-mobile@2.0/manual/index.html)).
+For more information about the AR template, you can refer to [the documentation]([https://docs.unity3d.com/Packages/com.unity.template.ar@4.0/manual/index.html]).
 
 What is the purpose of the GameObjects and components already in the scene? What is the difference between session space and world space?
 
@@ -33,7 +33,7 @@ When you enter Play Mode with XR Simulation enabled, AR Foundation loads your XR
 
 You can configure this environment by going to Window > XR > AR Foundation > XR Environment. Click on the drop down to install the sample environments and select one of your choosing.
 
-Not all AR Foundation features can be tested in the simulator. Refer to [the documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-overview.html) for details.
+Not all AR Foundation features can be tested in the simulator. Refer to [the documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/xr-simulation/simulation-overview.html) for details.
 
 Test out the AR templates “SampleScene” using various simulated environments.
 
@@ -56,15 +56,15 @@ When running the application, you should be able to detect planes and place cube
 
 ## 5. Detecting Planes
 
-It’s time to implement an AR scene from scratch. Create a new scene, delete or convert the camera to an [XR Origin](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/device-tracking.html) and add an [AR Session](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/session.html) GameObject. Take some time to familiarize yourself with the two GameObjects and their purpose.
+It’s time to implement an AR scene from scratch. Create a new scene, delete or convert the camera to an [XR Origin](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/features/device-tracking.html) and add an [AR Session](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/features/session.html) GameObject. Take some time to familiarize yourself with the two GameObjects and their purpose.
 
-Add [plane tracking](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/plane-detection.html) to the experience. The plane visualization should look different from the SampleScene. How come? Can you change the visualization so that it matches that of the SampleScene?
+Add [plane tracking](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/features/plane-detection.html) to the experience. The plane visualization should look different from the SampleScene. How come? Can you change the visualization so that it matches that of the SampleScene?
 
 ![Plane Detection](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/5.png)
 
 ## 6. Raycasting
 
-You can [cast rays](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/features/raycasts.html) to perform hit detections against trackables such as planes. The API is similar to Unity's physics module. Use this to spawn a cube at the position on a plane where the user is touching. If you want to test using the simulator, make sure that you are using an API that registers mouse input as well as touch input.
+You can [cast rays](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/features/raycasts.html) to perform hit detections against trackables such as planes. The API is similar to Unity's physics module. Use this to spawn a cube at the position on a plane where the user is touching. If you want to test using the simulator, make sure that you are using an API that registers mouse input as well as touch input.
 
 ![Raycasting](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/6.png)
 
@@ -72,7 +72,7 @@ You can [cast rays](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@
 
 Image targets can be a good way to anchor virtual experiences and are useful for calibrating with real world locations.
 
-Use the [AR Tracked Image Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html) to spawn a cube on top of a tracked image.
+Use the [AR Tracked Image Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/features/image-tracking.html) to spawn a cube on top of a tracked image.
 
 ![Augmented Images](https://github.com/KasperKnop/XRD/blob/main/02%20AR%20Development/img/7.png)
 
