@@ -88,7 +88,7 @@ To get a deeper understanding of the various features included in AR Foundation,
 -   XR Interaction Toolkit
 -   Face tracking
 
-There are also features outside of AR Foundation, which might be worth looking into. E.g. [Cloud Anchors](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions).
+There are also features outside of AR Foundation, which might be worth looking into. E.g. Ninantics [Lightship](https://lightship.dev/docs/ardk/) and [Cloud Anchors](https://developers.google.com/ar/develop/cloud-anchors), which is part of the [AR Core Extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions).
 
 You can also familiarize yourself with a 3D modeling tool like [Blender](https://www.blender.org/download/) for creating or modifying models for your experiences.
 
