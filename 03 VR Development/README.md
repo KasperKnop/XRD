@@ -4,17 +4,16 @@
 
 ### Project Setup
 
-1. Start a new Unity Project using the **VR** core template.
+1. Start a new Unity Project using the **VR** core template (Unity 6 is recommended for the newest template).
 2. In the menu, go to **File** > **Build Settings**.
 3. Under **Platform**, select **Android**.
 4. Set Texture Compression to ASTC.
 5. Click **Switch Platform**.
-6. If you are using the older 3.1 VR template: Go to **Edit** > **Project Settings** > **XR Plugin Management**.
-    1. Make sure that **OpenXR** is enabled in both the desktop and Android tab. (desktop is required if you want to use Quest Link for faster development)
-    2. **OpenXR** > Add Meta Quest Touch Pro as an Interaction Profile & Enable Meta Quest Support
-7. Run the project in the editor with a Quest connected using either Oculus Link or Oculus Air Link, or build directly to the Quest to to verify that everything is set up correctly.
+6. Run the project in the editor with a Quest connected using either Oculus Link or Oculus Air Link, or build directly to the Quest to to verify that everything is set up correctly.
 
-For more information on the VR template, check out the [quick start guide](https://docs.unity3d.com/Packages/com.unity.template.vr@9.0/manual/index.html). It is worth mentioning, that the new 6.0.2 template takes advantage of the Universal Render Pipeline.
+N.B.: If you cannot enable USB debugging for pushing the apk to the Quest, make sure that the headset have developer mode enabled. You can check this on the lab phone that controls the light. Open Meta Horizon, find the device, go to headset settings and check that the developer options are enabled. Retoggling the option and restarting the headset to make sure that it is registered.
+
+For more information on the VR template, check out the [quick start guide](https://docs.unity3d.com/Packages/com.unity.template.vr@9.0/manual/index.html).  It is worth mentioning, that the template takes advantage of the Universal Render Pipeline.
 
 ### XR Interaction Toolkit
 
