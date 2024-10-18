@@ -4,7 +4,7 @@
 
 ### Project Setup
 
-1. Start a new Unity Project using the **VR** core template (Unity 6 is recommended for the newest template).
+1. Start a new Unity Project using the **VR** core template.
 2. In the menu, go to **File** > **Build Settings**.
 3. Under **Platform**, select **Android**.
 4. Set Texture Compression to ASTC.
@@ -17,7 +17,7 @@ For more information on the VR template, check out the [quick start guide](https
 
 ### XR Interaction Toolkit
 
-XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc) is already enabled in the 6.0.2 VR template. It has the **BasicScene** and **SampleScene** that you can take advantage of, as well as the **DemoScene** in the **Samples** folder. If you want more examples for e.g. hand tracking, you can go to **Window** > **Package Manager** > XR Interaction Toolkit > Samples. This is also where you can update to the latest version of the XR Interaction Toolkit and find the **XR Device Simulator**, that can help you test out your scene without a headset.
+XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc) is already enabled in the VR template. It has the **BasicScene** and **SampleScene** that you can take advantage of, as well as the **DemoScene** in the **Samples** folder. If you want more examples for e.g. hand tracking, you can go to **Window** > **Package Manager** > XR Interaction Toolkit > Samples. This is also where you can update to the latest version of the XR Interaction Toolkit and find the **XR Device Simulator**, that can help you test out your scene without a headset.
 
 > _N.B.: There is a known issue when upgrading from an older version of the Starter Assets to a newer version. Script references in the Demo Scene for scripts included in the Starter Assets become disconnected when upgrading in-place. It is recommended that you delete the **Starter Assets** folder from your **Samples** directory before importing the new Starter Assets sample package. If you find yourself with **disconnected script references** (which for the template scenes often results in both controllers showing permanent teleportation indicators and two raycasts), **try "Assets > Reimport all**"._
 
@@ -79,7 +79,7 @@ Create a gun that can shoot balls! The gun should have an XR Grab Interactable c
 
 ## 6. Further Exploration
 
-To get a deeper understanding of the various features included the XR Interaction Toolkit, explore the official [XR Interaction Toolkit examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples) repository. You could look into feature such as:
+To get a deeper understanding of the various features included the XR Interaction Toolkit, explore the official [XR Interaction Toolkit examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples) repository (N.B.: You might run into conversion issues if you try to use Unity 6 with this project!). You could look into feature such as:
 
 -   Hand tracking
 -   Eye tracking (requires Quest Pro)
